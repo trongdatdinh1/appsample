@@ -12,6 +12,7 @@ gem "config"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "config"
 gem "bootstrap-sass", "3.3.7"
+gem "bcrypt",         "3.1.12"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
