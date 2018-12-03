@@ -23,3 +23,33 @@ vi:
   sample_app: "Sample App"
   login: "Dang nhap"
   contact: "Lien he"
+  signup: "Dang ky"
+  signup_content: "Day la noi nguoi dung dang ky tai khoan."
+  error_form: "Form chua %{err_num} loi"
+  create_my_account: "Tao tai khoan"
+  some_thing_went_wrong: "May chu co van des!"
+  welcome_to_sample_app: "Chao mung toi Sample App"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên người dùng"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Mật khẩu xác nhận"
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không được để trống"
+              too_long: "không được quá 50 kí tự"
+            email:
+              blank: "không được để trống"
+              too_long: "không được quá 255 kí tự"
+              invalid: "ko hợp lệ "
+            password:
+              blank: "không được để trống"
+              too_short: "không được dưới 6 kí tự"
+            password_confirmation:
+              confirmation: "không chính xác "
+

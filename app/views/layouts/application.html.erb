@@ -11,19 +11,12 @@
 
   <body>
     <%= render "layouts/header" %>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <%= link_to t("sample_app"), "#", id: "logo" %>
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home", root_path %></li>
-            <li><%= link_to "Help", help_path %></li>
-            <li><%= link_to "Log in", "#" %></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <%= yield %>
+    <div class="container">
+      <% flash.each do |message_type, message| %>
+        <div class="aler alert-<% message_type %>"><%= message %></div>
+      <% end %>
+      <%= yield %>
+    </div>
     <%= render "layouts/footer" %>
   </body>
 </html>
