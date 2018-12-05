@@ -29,6 +29,14 @@ vi:
   create_my_account: "Tao tai khoan"
   some_thing_went_wrong: "May chu co van des!"
   welcome_to_sample_app: "Chao mung toi Sample App"
+  new_user?: "Người dùng mới? %{singup_now}"
+  password: "Mật khẩu"
+  account: "Tài khoản"
+  user: "Người dùng"
+  profile: "Thông tin"
+  settings: "Cài đặt"
+  logout: "Đăng xuất"
+  invalid_email_password: "Email hoac password ko hop le"
   activerecord:
     attributes:
       user:
