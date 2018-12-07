@@ -37,6 +37,7 @@ vi:
   settings: "Cài đặt"
   logout: "Đăng xuất"
   invalid_email_password: "Email hoac password ko hop le"
+  remember_me: "Ghi nhớ trong máy"
   activerecord:
     attributes:
       user:
