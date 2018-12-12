@@ -48,6 +48,19 @@ vi:
   update_your_profile: "Hãy cập nhật"
   save_changes: "Lưu thay đổi"
   change: "đổi"
+  invalid_email_password: "Email hoặc mật khẩu ko hợp lệ"
+  active_acc_content: "Chào mừng tới app đơn gỉan hãy truy cập vào link bên
+    dưới để kích hoạt tài khoản:"
+  activate: "kích hoạt"
+  pass_reset: "xóa mật khẩu"
+  pass_reset_content: "Để xóa mật khẩu hãy truy cập link dưới:"
+  invalid_email_password: "invalid email/password"
+  acc_not_activated: "Tài khoản chưa đc kích hoạt."
+  check_email_for_validation_link: "Kiểm tra email để link kích hoạt tài khoản."
+  check_email_to_activate_acc: "Kiểm tra email để kích hoạt tài khoản."
+  acc_activated: "Tài khoản đã đc kích hoạt!"
+  invalid_activation_link: "Link kích hoạt ko hợp lệ"
+  acc_activation: "Kích hoạt tài khoản"
   activerecord:
     attributes:
       user:

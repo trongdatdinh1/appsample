@@ -46,3 +46,16 @@ en:
   update_your_profile: "Update your profile"
   save_changes: "Save changes"
   change: "change"
+  active_acc_content: "Welcome to the Sample App! Click on the link
+    below to activate your account:"
+  activate: "Active"
+  pass_reset: "Password reset"
+  pass_reset_content: "To reset your password click the link below:"
+  invalid_email_password: "invalid email/password"
+  acc_not_activated: "Account not activated."
+  check_email_for_validation_link: "Check your email for the activation link."
+  check_email_to_activate_acc: "Please check your email to
+    activate your account."
+  acc_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  acc_activation: "Account activation"
