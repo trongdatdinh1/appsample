@@ -35,3 +35,4 @@ en:
   settings: "Settings"
   logout: "Logout"
   invalid_email_password: "Invalid email or password"
+  remember_me: "Remember me on this computer"

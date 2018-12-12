@@ -3,3 +3,5 @@ rails_book_link: "http://www.railstutorial.org/book/"
 screen_cast_rails_link: "http://screencasts.railstutorial.org/"
 ror_link: "http://rubyonrails.org/"
 rails_help_link: "http://www.railstutorial.org/help"
+name_max_length: 50
+email_max_length: 255
