@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get "sessions/new"
   scope "(:locale)", locale: /en|vi/ do
     root "static_pages#home"
     get "/home", to: "static_pages#home"
@@ -13,4 +12,5 @@ Rails.application.routes.draw do
     resources :users
   end
   resources :account_activations, only: [:edit]
+  resources :password_resets, except: [:index, :show, :delete]
 end
