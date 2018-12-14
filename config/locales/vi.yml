@@ -61,6 +61,20 @@ vi:
   acc_activated: "Tài khoản đã đc kích hoạt!"
   invalid_activation_link: "Link kích hoạt ko hợp lệ"
   acc_activation: "Kích hoạt tài khoản"
+  forgot_pass: "(quên mật khẩu)"
+  submit: "xác nhận"
+  to_reset_click_link_below: "Chọn link bên dưới để đặt lại mật khẩu:"
+  this_link_expire_2hours: "Link này sẽ tự mất sau 2 tiếng."
+  ignore_this_email_if_not_request_password: "Nếu bạn không có ý định đặt lại
+    mật khẩu, xin hãy bỏ qua email này."
+  reset_pass: "reset pass"
+  email_sent_with_pass_reset_instruction: "Email được gửi với hướng dẫn đặt
+    lại mật khẩu"
+  email_not_found: "Email không tồn tại"
+  pass_has_been_reset: "Mật khẩu đã được đặt lại."
+  can_not_empty: "ko được để trống"
+  pass_expired: "Link đặt lại Mật khẩu đã hết hạn."
+  update_pass: "Sửa mật khẩu"
   activerecord:
     attributes:
       user:

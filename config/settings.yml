@@ -6,3 +6,4 @@ rails_help_link: "http://www.railstutorial.org/help"
 name_max_length: 50
 email_max_length: 255
 gravatar_size: 50
+password_reset_expired: 2
