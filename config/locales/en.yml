@@ -74,3 +74,5 @@ en:
   can_not_empty: "can't be empty"
   pass_expired: "Password reset has expired."
   update_pass: "Update password"
+  micropost: "Micropost"
+  posted_x_ago: "Posted %{time} ago"

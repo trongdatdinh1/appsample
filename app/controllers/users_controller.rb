@@ -25,6 +25,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by id: params[:id]
+    @microposts = @user.microposts.ordered_by_date.page params[:page]
     return if @user
       flash[:success] = t "some_thing_went_wrong"
       redirect_to root_path

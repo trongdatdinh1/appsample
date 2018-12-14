@@ -75,6 +75,8 @@ vi:
   can_not_empty: "ko được để trống"
   pass_expired: "Link đặt lại Mật khẩu đã hết hạn."
   update_pass: "Sửa mật khẩu"
+  micropost: "Micropost"
+  posted_x_ago: "Đăng %{time} trước"
   activerecord:
     attributes:
       user:
