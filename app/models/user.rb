@@ -70,6 +70,10 @@ class User < ApplicationRecord
     reset_sent_at < Settings.password_reset_expired.hours.ago
   end
 
+  def feed
+    microposts.ordered_by_date
+  end
+
   private
   def downcase_email
     email.downcase!
