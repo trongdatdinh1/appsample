@@ -7,3 +7,5 @@ name_max_length: 50
 email_max_length: 255
 gravatar_size: 50
 password_reset_expired: 2
+micropost_content_max_length: 140
+micropost_user_gravatar_size: 50
